@@ -1,12 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Flex:wght@500&display=swap');
 
 body {
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /*ORIGINAL FONTS - "Raleway", Helvetica, Arial, sans-serif;*/
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 5px solid #27a822;
-    border-bottom: 5px solid #27A822;
+    border-top: 5px solid #a82222;
+    border-bottom: 5px solid #a82222;
 }
 
 .container {
@@ -16,6 +16,17 @@ body {
 a {
     text-decoration: none;
     /*background-color: rgba(39, 168, 34, 0.06);*/
+    
+    --s: 0.1em;   /* the thickness of the line */
+    --c: #ff0000; /* the color */
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
 }
 
 a:visited {
@@ -23,7 +34,9 @@ a:visited {
 }
 
 a:hover, a:focus {
-    color: #27A822;
+    --_p: 100%;
+    color: #ff0000;
+    cursor: pointer;
 }
 
 p, address {
@@ -40,7 +53,7 @@ p, address {
 }
 
 header > h1, section > h1 {
-    color: #27A822;
+    color: #a82222;
 }
 
 header > h1 {
@@ -89,7 +102,7 @@ article > header > span + span::before {
 }
 
 article > header > span {
-    color: #808080;
+    color: #775454;
     font-size: 100%;
 }
 
@@ -113,8 +126,15 @@ article > header address + time::before {
 em {
     font-style: normal;
     font-weight: bold;
-    color: rgb(100, 100, 100);
+    color: rgb(95, 68, 68);
     /*margin-right: 6px;*/
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+    border: 1px;
 }
 
 @media print {
@@ -142,3 +162,4 @@ footer p {
     margin-bottom: 10px;
     font-size: 10pt;
 }
+

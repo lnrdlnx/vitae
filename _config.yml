@@ -13,24 +13,22 @@ author: Fábio Madeira
 # edit this section with your information
 # jekyllt.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /vitae/
-title: Chris Turner's Resume
-name: Chris Turner
-email: christurner@me.com
-email_full: mailto:youremail@me.com
-website: github.io/sustain
-website_full: https://jekyllt.github.io/sustain
-github: trending
-twitter: twitter
-tel: +44 0000 000000
-tel_full: tel:+440000000000
-google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+baseurl: 
+title: Leonardo Barboza - sysadmin - linux - infosec - curriculum vitae - lnrdlnx
+name: Leonardo Barboza
+email: lnrd@hotmail.com
+email_full: mailto:lnrd@hotmail.com
+website: lnrdlnx.github.io
+website_full: https://lnrdlnx.github.io/
+github: lnrdlnx
+linkedin: leonardobarboza/?locale=pt_BR
+tel: +55 61 985505994
+tel_full: tel:+5561985505994
+google_maps: 'https://www.google.com.br/maps/place/+Brazil,+Brasilia'
 address:
-  street: 44 Perth Street
-  postcode: EH3 5BL
-  city: Edinburgh
-  country: United Kingdom
-google_analytics: UA-69300817-1
+  city: Brasília
+  country: Brazil
+# google_analytics: UA-69300817-1
 
 # needed for travis-ci build
 exclude: [vendor]
