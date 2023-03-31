@@ -1,0 +1,4 @@
+- name: Home
+  link: {{ baseurl }}
+- name: English version
+  permalink: {{ baseurl+/en/ }}
