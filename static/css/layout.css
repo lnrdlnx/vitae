@@ -19,7 +19,7 @@ a {
     
     --s: 0.1em;   /* the thickness of the line */
     --c: #ff0000; /* the color */
-    color: #0000;
+    color: #000000;
     padding-bottom: var(--s);
     background: 
     linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
@@ -139,7 +139,10 @@ em {
 
 @media print {
     @page {
-        margin: 15mm;
+        margin-left: 2cm;
+        margin-right: 2cm;
+        margin-top: 1.5cm;
+        margin-bottom: 2cm;
     }
 
     body {

@@ -14,7 +14,7 @@ author: Fábio Madeira
 # jekyllt.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
 baseurl: 
-title: Leonardo Barboza - Sysadmin - Infraestrutura - Linux Red Hat - InfoSec - Curriculum Vitae - lnrdlnx
+title: Leonardo Barboza (lnrd@hotmail.com) Infraestrutura - Segurança da Informação - Sysadmin
 name: Leonardo Barboza
 email: lnrd@hotmail.com
 email_full: mailto:lnrd@hotmail.com
@@ -28,7 +28,7 @@ google_maps: 'https://www.google.com.br/maps/place/+Brazil,+Brasilia'
 address:
   city: Brasília
   country: Brazil
-# google_analytics: UA-69300817-1
+# google_analytics: G-3Q3RJ5P3W2
 
 # needed for travis-ci build
-exclude: [vendor]
+# exclude: [vendor]
